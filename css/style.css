@@ -96,6 +96,8 @@ h1{
 }
 
 /*Catalogo de remeras*/
+
+
 .catalogo_remeras .mushroom,
 .catalogo_remeras .courage,
 .catalogo_remeras .nasa,
@@ -106,11 +108,12 @@ h1{
   background-color: #f2f2f2;
   border-radius: 10px;
   padding: 10px;
-  margin: 5px;
-  margin-left: 35px;
+  margin: 10px;
+  margin-left: 110px;
+  width: 300px;
+  height: 330px;
   display: flex; 
   flex-direction: column; 
-  align-items: center;
   align-items: center;
 }
 
@@ -138,16 +141,18 @@ h1{
 
 /* Catálogo de pantalones */
 .catalogo_pantalones .space,
+.catalogo_pantalones .airy,
 .catalogo_pantalones .ample,
-.catalogo_pantalones .expansive,
-.catalogo_pantalones .capacious,
 .catalogo_pantalones .open,
-.catalogo_pantalones .airy{
+.catalogo_pantalones .expansive,
+.catalogo_pantalones .capacious{
   background-color: #f2f2f2;
   border-radius: 10px;
   padding: 10px;
-  margin: 5px;
-  margin-left: 60px;
+  margin: 10px;
+  margin-left: 100px;
+  width: 300px;
+  height: 330px;
   display: flex; 
   flex-direction: column; 
   align-items: center;
@@ -159,17 +164,14 @@ h1{
   width: 200px;
   border-radius: 10px;
 }
-.catalogo_pantalones .capacious img{
-  width: 200px;
-  height: 200px;
-}
+
 
 .catalogo_pantalones button {
   background-color: #000000;
   color: #fff;
   border: none;
   padding: 10px 20px;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
@@ -203,13 +205,15 @@ h1{
   background-color: #f2f2f2;
   border-radius: 10px;
   padding: 10px;
-  margin: 5px;
-  margin-left: 30px;
+  margin: 10px;
+  margin-left: 100px;
+  width: 300px;
+  height: 330px;
   display: flex; 
   flex-direction: column; 
   align-items: center;
-  align-items: center;
 }
+
 .catalogo_buzos button {
   background-color: #000000;
   color: #fff;
@@ -402,18 +406,25 @@ footer {
     right: 1px;
     padding: 0;
   }
-  .catalogo_buzos .peace,
-  .catalogo_buzos .fear,
-  .catalogo_buzos .knok,
-  .catalogo_buzos .orange,
-  .catalogo_buzos .green,
-.catalogo_buzos .dreamers{
+
+  /*Catalogo remeras*/
+  .catalogo_remeras .peace,
+  .catalogo_remeras .fear,
+  .catalogo_remeras .knok,
+  .catalogo_remeras .orange,
+  .catalogo_remeras .green,
+.catalogo_remeras .dreamers{
 
   background-color: #f2f2f2;
   border-radius: 10px;
   padding: 10px;
-  margin: 1px;
-  margin-left: 20px;
+  margin: 10px;
+  margin-left: 100px;
+  width: 300px;
+  height: 330px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
 }
 
 /*Catalogo pantalones*/
