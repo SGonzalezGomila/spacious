@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* Estilos generales */
 * {
   font-family: 'Bebas Neue', sans-serif;
   padding: 0;
   margin: 0;
+  
 }
 
 body {
