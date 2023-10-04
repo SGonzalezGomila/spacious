@@ -392,7 +392,7 @@ footer {
       border-radius: 10px;
       padding: 10px;
       margin: 5px;
-      margin-left: 10px;
+      margin-left: 5px;
     }
 
   /*Pagina buzos*/
@@ -408,18 +408,18 @@ footer {
   }
 
   /*Catalogo remeras*/
-  .catalogo_remeras .peace,
-  .catalogo_remeras .fear,
-  .catalogo_remeras .knok,
-  .catalogo_remeras .orange,
-  .catalogo_remeras .green,
-.catalogo_remeras .dreamers{
+  .catalogo_buzos .peace,
+  .catalogo_buzos .fear,
+  .catalogo_buzos .knok,
+  .catalogo_buzos .orange,
+  .catalogo_buzos .green,
+.catalogo_buzos .dreamers{
 
   background-color: #f2f2f2;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  margin-left: 100px;
+  margin-left: 50px;
   width: 300px;
   height: 330px;
   display: flex; 
@@ -438,7 +438,7 @@ footer {
   border-radius: 10px;
   padding: 30px;
   margin: 1px;
-  margin-left: 20px;
+  margin-left: 60px;
 }
 
 }
