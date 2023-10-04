@@ -317,7 +317,7 @@ footer {
   padding: 10px 0;
 }
 
-/*Media query para pantallas de hasta 300px*/
+/*Media query para pantallas de hasta 767px*/
 @media(max-width: 767px){
   /*Ajustes a la navbar para pantallas hasta 300px*/
   .nav-list {
@@ -422,7 +422,7 @@ footer {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  margin-left: 50px;
+  margin-left: 18px;
   width: 300px;
   height: 330px;
   display: flex; 
@@ -441,7 +441,7 @@ footer {
   border-radius: 10px;
   padding: 30px;
   margin: 1px;
-  margin-left: 60px;
+  margin-left: 18px;
 }
 
 }
