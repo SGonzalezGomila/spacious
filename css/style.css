@@ -11,6 +11,8 @@
 body {
   margin: 0;
   padding: 0;
+  
+  background-color: white;
 }
 
 /* Header */
@@ -64,33 +66,74 @@ footer {
   color: white;
   }
 
-
-/*Inicio*/
-.inicio{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+/*inicio*/
+.destacados_titulo{
+  background-color: #f2f2f2;
+  margin-top: 10px;
+}
+.productos_destacados{
+  margin-left:auto;
 }
 
-.div_img_inicio {
-  flex: 1;
-  margin-right: 0px;
-}
 
-.quienes_somos {
-  flex: 2;
-}
-.quienes_somos h2, h3{
-  text-align: center;
-}
-
-.div_img_inicio img{
-  margin-top: 20%;
-  margin-bottom: 20%;
+.destacados_pantalones_img,
+.destacados_buzos_img,
+.destacados_remeras_img{
   width: 400px;
-  height: 400px;
-  border-radius: 50%;
+  padding: 10px;
+  
 }
+
+.destacados_pantalones_img:hover,
+.destacados_buzos_img:hover,
+.destacados_remeras_img:hover{
+  transform: scale(1.1);
+  
+}
+
+/*catalogo de inicio*/
+
+
+.catalogo_inicio h2{
+  text-align: center;
+  background-color: #f2f2f2;
+  background-size: 100vh;
+  
+}
+
+.catalogo_inicio img{
+  height: 200px;
+  width: 200px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  padding: 10px;
+  
+}
+
+.catalogo_inicio img:hover{
+  transform: scale(1.2);
+}
+
+
+.catalogo_inicio button{
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.catalogo_inicio button:hover{
+ transform: scale(1.1);
+  background-color: #0056b3;
+}
+
+
 
 /* Estilo para el título h1 en general */
 
@@ -320,6 +363,7 @@ footer {
 /*Media query para pantallas de hasta 767px*/
 @media(max-width: 767px){
   /*Ajustes a la navbar para pantallas hasta 300px*/
+ 
   .nav-list {
     list-style: none;
     margin-left: 1px;
@@ -340,39 +384,33 @@ footer {
   }
 
   /*Pagina index*/
-  .inicio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  /*productos destacados inicio*/
+  .productos_destacados{
+    width: 100%;
   }
-  .inicio_txt_img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
-    text-align: center;
+  .destacados_remeras_img{
+    width: 93%;
+    margin-left: 45px;
   }
-  
-  .div_img_inicio img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 0%;
-    margin-top: 10px; /* Agrega un espacio entre el texto y la imagen */
+  .destacados_buzos_img{
+    width: 85%;
+    margin-left: 60px;
   }
-  
-  .quienes_somos h1 {
-    font-size: 50px;
+  .destacados_pantalones_img{
+    width: 93%;
+    margin-left: 45px;
+  }
+  .productos_destacados h2{
+    width: 100%;
   }
   
-  .quienes_somos h2 {
-    font-size: 30px;
-  }
+  /*catalogo inicio*/
   
-  .quienes_somos h3 {
-    font-size: 15px;
-    margin-top: 10px;
-  }
-  
+
+
+
+
+
   /*Pagina remeras*/
   .catalogo_remeras{
     position: relative;
