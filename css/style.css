@@ -14,6 +14,11 @@ body {
   
   background-color: white;
 }
+/*h1 general*/
+h1{
+  text-align: center;
+  background-color: #f2f2f2;
+}
 
 /* Header */
 header {
@@ -69,77 +74,31 @@ footer {
 /*inicio*/
 .destacados_titulo{
   background-color: #f2f2f2;
-  margin-top: 10px;
-}
-.productos_destacados{
-  margin-left:auto;
+  margin-top: 45px;
+  width: 100%;
 }
 
-
-.destacados_pantalones_img,
-.destacados_buzos_img,
-.destacados_remeras_img{
-  width: 400px;
-  padding: 10px;
-  
-}
-
-.destacados_pantalones_img:hover,
-.destacados_buzos_img:hover,
-.destacados_remeras_img:hover{
-  transform: scale(1.1);
-  
-}
 
 /*catalogo de inicio*/
+.container_destacados{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
-
-.catalogo_inicio h2{
-  text-align: center;
-  background-color: #f2f2f2;
-  background-size: 100vh;
+.container_destacados img{
+  width: 80%;
   
+  margin-left: 25px;
 }
 
-.catalogo_inicio img{
-  height: 200px;
-  width: 200px;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  padding: 10px;
-  
-}
-
-.catalogo_inicio img:hover{
-  transform: scale(1.2);
-}
-
-
-.catalogo_inicio button{
-  background-color: #000000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1rem;
-  margin-top: 4px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.catalogo_inicio button:hover{
- transform: scale(1.1);
-  background-color: #0056b3;
+.container_destacados img:hover{
+  transform: scale(1.1);
 }
 
 
 
-/* Estilo para el título h1 en general */
-
-h1{
-  text-align: center;
-}
 
 /*Catalogo de remeras*/
 
@@ -363,7 +322,7 @@ footer {
 /*Media query para pantallas de hasta 767px*/
 @media(max-width: 767px){
   /*Ajustes a la navbar para pantallas hasta 300px*/
- 
+
   .nav-list {
     list-style: none;
     margin-left: 1px;
@@ -385,26 +344,25 @@ footer {
 
   /*Pagina index*/
   /*productos destacados inicio*/
-  .productos_destacados{
-    width: 100%;
+  .container_destacados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
   }
-  .destacados_remeras_img{
-    width: 93%;
-    margin-left: 45px;
+
+  .container_destacados img{
+    width: 80%;
+    padding: 5px;
+
   }
-  .destacados_buzos_img{
-    width: 85%;
-    margin-left: 60px;
-  }
-  .destacados_pantalones_img{
-    width: 93%;
-    margin-left: 45px;
-  }
-  .productos_destacados h2{
-    width: 100%;
+  .container_destacados img:active{
+    transform: scale(1.1);
   }
   
   /*catalogo inicio*/
+  
   
 
 
