@@ -19,11 +19,16 @@ h1{
   text-align: center;
   background-color: #f2f2f2;
 }
+h2{
+  text-align: center;
+  background-color: #f2f2f2;
+}
 
 /* Header */
 header {
   background-color: #000000;
 }
+
 
 
 /*Navbar*/
@@ -40,9 +45,7 @@ header {
   border-radius: 50%;
 
 }
-footer {
-  clear: both;
-}
+
 
 .nav-list {
   list-style: none;
@@ -78,8 +81,7 @@ footer {
   width: 100%;
 }
 
-
-/*catalogo de inicio*/
+/*Destacados inicio*/
 .container_destacados{
   display: flex;
   flex-direction: row;
@@ -89,7 +91,7 @@ footer {
 
 .container_destacados img{
   width: 80%;
-  
+  margin-bottom: 10px;
   margin-left: 25px;
 }
 
@@ -97,8 +99,26 @@ footer {
   transform: scale(1.1);
 }
 
+/*Novedades inicio*/
 
+.container_novedades {
+  display: flex; 
+  justify-content: space-between; 
+}
 
+.container_novedades > div {
+  flex: 1; 
+  margin: 1px; 
+}
+
+.container_novedades img{
+  width: 90%;
+  padding: 5px;
+
+}
+.container_novedades img:hover{
+  transition: scale(1.1);
+}
 
 /*Catalogo de remeras*/
 
@@ -344,14 +364,14 @@ footer {
 
   /*Pagina index*/
   /*productos destacados inicio*/
-  .container_destacados{
+  /*.container_destacados{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 20px;
+    
   }
-
+*/
   .container_destacados img{
     width: 80%;
     padding: 5px;
@@ -440,4 +460,26 @@ footer {
   margin-left: 18px;
 }
 
+}
+
+@media(max-width: 992px) {
+  .container_destacados img{
+    width: 80%;
+    padding: 5px;
+
+  }
+  .container_destacados img:active{
+    transform: scale(1.1);
+  }
+}
+
+@media(max-width: 1199px){
+  .container_destacados img{
+    width: 97%;
+    padding: 5px;
+
+  }
+  .container_destacados img:active{
+    transform: scale(1.1);
+  }
 }

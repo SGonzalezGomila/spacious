@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <title>Remeras</title>
 </head>
@@ -12,7 +13,7 @@
     <main>
         <header>
             <!--Nabvar-->
-            <nav class="navbar navbar-expand-lg nav-bar">
+            <nav class="navbar navbar-expand-lg nav-bar"">
   <div class="container-fluid">
     <a class="navbar-brand" href="../index.html"><img class="logo_navbar" src="../img/logos/logo.png" alt="Logo de la marca"></a>
     <button class="navbar-toggler fondo-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,9 +47,12 @@
     
         <!--Catalogo de remeras -->
         <section id="Remeras" class="container-fluid">
+          <div class="animation">
+
+          </div>
           <h1>Remeras</h1>
           <div class="row catalogo_remeras">
-              <div class="mushroom col-sm-4 col-md-3 col-lg-3 "> <!--Probando usar boostrap para acomodar mi catalogo sin usar grids-->
+              <div  class="mushroom col-sm-4 col-md-3 col-lg-3 "> <!--Probando usar boostrap para acomodar mi catalogo sin usar grids-->
                   <h2>Mushroom</h2>
                   <img src="../img/remeras/mushroom.jpg" alt="Remera color crema con un dibujo de hongos en la espalda y el frente y un texto que dice mushroom">
                   <button>Comprar</button>
@@ -79,6 +83,7 @@
             <button>Comprar</button>
             </div>
           </div>
+          
         </section>
 </main>
     <footer>  
@@ -86,5 +91,10 @@
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
 </body>
 </html>
