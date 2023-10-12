@@ -82,12 +82,25 @@ header {
 
 .carrousel_inicio{
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 .carrousel_inicio img{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
+  
 }
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+  @include transition($carousel-transition);
+}
+
 
 
 .destacados_titulo{
