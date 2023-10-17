@@ -332,4 +332,161 @@ a {
   text-align: center;
 }
 
+/*Mediaquerys*/
+@media (max-width: 767px) {
+  /*Ajustes a la navbar para pantallas hasta 300px*/
+  .nav-list {
+    list-style: none;
+    margin-left: 1px;
+    padding: 0;
+    display: flex;
+  }
+  .nav-list li {
+    margin-left: 8px;
+  }
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav-list a:hover {
+    color: rgb(247, 255, 136);
+  }
+  /*Pagina index*/
+  /*carrousell*/
+  .carrousel_inicio {
+    width: 60%;
+  }
+  .container_destacados img {
+    width: 80%;
+    padding: 5px;
+  }
+  .container_destacados img .container_destacados img:active {
+    transform: scale(1.1);
+  }
+  /*catalogo inicio*/
+  /*Pagina remeras*/
+  .catalogo_remeras {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    gap: 10px;
+    right: 1px;
+    padding: 0;
+  }
+  .catalogo_remeras .mushroom,
+  .catalogo_remeras .courage,
+  .catalogo_remeras .nasa,
+  .catalogo_remeras .good-vibes,
+  .catalogo_remeras .thug,
+  .catalogo_remeras .panther {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 5px;
+  }
+  /*Pagina buzos*/
+  .catalogo_buzos {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido */
+    gap: 10px;
+    right: 1px;
+    padding: 0;
+  }
+  /*Catalogo remeras*/
+  .catalogo_buzos .peace,
+  .catalogo_buzos .fear,
+  .catalogo_buzos .knok,
+  .catalogo_buzos .orange,
+  .catalogo_buzos .green,
+  .catalogo_buzos .dreamers {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 18px;
+    width: 300px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*Catalogo pantalones*/
+  .catalogo_pantalones .space,
+  .catalogo_pantalones .ample,
+  .catalogo_pantalones .expansive,
+  .catalogo_pantalones .capacious,
+  .catalogo_pantalones .open,
+  .catalogo_pantalones .airy {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 1px;
+    margin-left: 18px;
+  }
+}
+@media (max-width: 471px) {
+  .carrousel_inicio {
+    display: none;
+  }
+  .destacados_title {
+    display: none;
+  }
+  .container_destacados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 35px;
+  }
+  .catalogo_buzos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+  }
+  .catalogo_pantalones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+  }
+  .catalogo_remeras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .container_destacados img {
+    width: 80%;
+    padding: 5px;
+  }
+  .container_destacados img:active {
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 1199px) {
+  .container_destacados img {
+    width: 97%;
+    padding: 5px;
+  }
+  .container_destacados img:active {
+    transform: scale(1.1);
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

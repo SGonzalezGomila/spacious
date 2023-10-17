@@ -20,7 +20,7 @@ $hoverBoton: #0056b3;
   flex-direction: column; 
   align-items: center;
   justify-content: center;
-}
+};
 @mixin boton-catalogo{
   background-color: #000000;
   color: #fff;
@@ -35,6 +35,9 @@ $hoverBoton: #0056b3;
       background-color: $hoverBoton;
   }
 }
+
+
+
 /* Estilos generales */
 * {
   font-family: 'Bebas Neue', sans-serif;
