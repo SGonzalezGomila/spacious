@@ -1,0 +1,34 @@
+/*Map para catalogo de remeras*/
+//map para catalogo de remeras
+
+
+.catalogo_remeras .mushroom,
+.catalogo_remeras .courage,
+.catalogo_remeras .nasa,
+.catalogo_remeras .good-vibes,
+.catalogo_remeras .thug,
+.catalogo_remeras .panther {
+    @include catalogo-styles;
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+        }
+}
+
+.catalogo_remeras{
+    button{
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        margin-top: 4px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+            &:hover{
+                background-color: $hoverBoton;
+            }
+    }
+}

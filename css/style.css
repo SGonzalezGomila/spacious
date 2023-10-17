@@ -36,9 +36,7 @@ header {
 
 
 /*Navbar*/
-.nav-link:hover {
-  color: yellow;
-}
+
 .nav-bar a{
   color: white;
 }
@@ -128,27 +126,7 @@ header {
   transform: scale(1.1);
 }
 
-/*Novedades inicio*/
 
-.container_novedades {
-  display: flex; 
-  justify-content: space-between; 
-}
-
-.container_novedades > div {
-  flex: 1; 
-  margin: 1px; 
-}
-
-.container_novedades img{
-  width: 90%;
-  padding: 5px;
-  border-radius: 5px;
-
-}
-.container_novedades img:hover{
-  transition: scale(1.1);
-}
 
 /*Catalogo de remeras*/
 
@@ -170,6 +148,7 @@ header {
   display: flex; 
   flex-direction: column; 
   align-items: center;
+  justify-content: center;
 }
 
 .catalogo_remeras img{

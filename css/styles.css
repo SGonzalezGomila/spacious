@@ -1,3 +1,320 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+/* Estilos generales */
+* {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/*h1 general*/
+h1 {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+h2 {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+h5 {
+  background-color: grey;
+  color: #f2f2f2;
+}
+
+/* Header */
+header {
+  background-color: black;
+}
+
+/*navbar*/
+.nav-bar a {
+  color: white;
+}
+.nav-bar a:hover {
+  color: rgb(247, 255, 136);
+}
+
+.logo_navbar {
+  max-width: 50px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.nav-list li {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.fondo-toggler {
+  background-color: white;
+  color: white;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  margin-top: 10px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.carrousell_inicio {
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.carrousell_inicio img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  backface-visibility: hidden;
+}
+
+/*destacados */
+.container_destacados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container_destacados img {
+  width: 80%;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  border-radius: 3px;
+}
+.container_destacados img:hover {
+  transform: scale(1.1);
+}
+
+/*Map para catalogo de remeras*/
+.catalogo_remeras .mushroom,
+.catalogo_remeras .courage,
+.catalogo_remeras .nasa,
+.catalogo_remeras .good-vibes,
+.catalogo_remeras .thug,
+.catalogo_remeras .panther {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 110px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.catalogo_remeras .mushroom img,
+.catalogo_remeras .courage img,
+.catalogo_remeras .nasa img,
+.catalogo_remeras .good-vibes img,
+.catalogo_remeras .thug img,
+.catalogo_remeras .panther img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.catalogo_remeras button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.catalogo_remeras button:hover {
+  background-color: #0056b3;
+}
+
+.catalogo_pantalones .space,
+.catalogo_pantalones .airy,
+.catalogo_pantalones .ample,
+.catalogo_pantalones .open,
+.catalogo_pantalones .expansive,
+.catalogo_pantalones .capacious {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 110px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.catalogo_pantalones .space img,
+.catalogo_pantalones .airy img,
+.catalogo_pantalones .ample img,
+.catalogo_pantalones .open img,
+.catalogo_pantalones .expansive img,
+.catalogo_pantalones .capacious img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.catalogo_pantalones button {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.catalogo_pantalones button:hover {
+  background-color: #0056b3;
+}
+
+.catalogo_buzos .peace,
+.catalogo_buzos .fear,
+.catalogo_buzos .knok,
+.catalogo_buzos .orange,
+.catalogo_buzos .green,
+.catalogo_buzos .dreamers {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  margin-left: 110px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.catalogo_buzos .peace img,
+.catalogo_buzos .fear img,
+.catalogo_buzos .knok img,
+.catalogo_buzos .orange img,
+.catalogo_buzos .green img,
+.catalogo_buzos .dreamers img {
+  height: 200px;
+  width: 200px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+#contact-form {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact_form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 10px;
+  margin: auto;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact_form button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos de la información de contacto */
+.contact_form {
+  text-align: center;
+}
+
+#contact-info {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.informacion {
+  text-align: center;
+}
 
 /*# sourceMappingURL=styles.css.map */

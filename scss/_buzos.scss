@@ -1,0 +1,14 @@
+.catalogo_buzos .peace,
+.catalogo_buzos .fear,
+.catalogo_buzos .knok,
+.catalogo_buzos .orange,
+.catalogo_buzos .green,
+.catalogo_buzos .dreamers{
+    @include catalogo-styles;
+        img{
+            height: 200px;
+            width: 200px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+}
