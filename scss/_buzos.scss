@@ -12,3 +12,6 @@
             border-radius: 10px;
         }
 }
+.catalogo_buzos button{
+    @include boton-catalogo
+}
