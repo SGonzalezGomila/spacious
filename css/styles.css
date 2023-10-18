@@ -327,6 +327,46 @@ a {
 }
 
 /*Mediaquerys*/
+@media (max-width: 471px) {
+  .carrousel_inicio {
+    display: none;
+  }
+  .destacados_title {
+    display: none;
+  }
+  .container_destacados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10px;
+  }
+  .catalogo_buzos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+  }
+  .catalogo_pantalones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 2px;
+  }
+  .catalogo_remeras {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 30px;
+  }
+}
 @media (max-width: 767px) {
   /*Ajustes a la navbar para pantallas hasta 300px*/
   .nav-list {
@@ -357,7 +397,6 @@ a {
   .container_destacados img .container_destacados img:active {
     transform: scale(1.1);
   }
-  /*catalogo inicio*/
   /*Pagina remeras*/
   .catalogo_remeras {
     position: relative;
@@ -422,46 +461,6 @@ a {
     padding: 30px;
     margin: 1px;
     margin-left: 18px;
-  }
-}
-@media (max-width: 471px) {
-  .carrousel_inicio {
-    display: none;
-  }
-  .destacados_title {
-    display: none;
-  }
-  .container_destacados {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 35px;
-  }
-  .catalogo_buzos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 30px;
-  }
-  .catalogo_pantalones {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 30px;
-  }
-  .catalogo_remeras {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    right: 30px;
   }
 }
 @media (max-width: 992px) {

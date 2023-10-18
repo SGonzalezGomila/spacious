@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 //Variables
 $bgheader:black;
-$bgbody:white;
+$bgbody:#f2f2f2;
 $bgCatalogos:#f2f2f2;
 $colorHoverNav:rgb(247, 255, 136);
 $colorLi:white;
@@ -9,7 +9,7 @@ $hoverBoton: #0056b3;
 
 //Mixins
 @mixin catalogo-styles {
-  background-color: #f2f2f2;
+  background-color: $bgCatalogos;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;

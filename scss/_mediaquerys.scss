@@ -1,6 +1,47 @@
 //Mediaquerys
 /*Mediaquerys*/
-@media(max-width: 767px){
+
+@media(max-width:471px){
+    .carrousel_inicio{
+      display: none;
+    }
+    .destacados_title{
+      display: none;
+    }
+    .container_destacados{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      right: 10px;
+    }
+    .catalogo_buzos{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      right: 30px;
+    }
+    .catalogo_pantalones{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      right: 2px;
+    }
+    .catalogo_remeras{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      right: 30px;
+    }
+  }
+  @media(max-width: 767px){
     /*Ajustes a la navbar para pantallas hasta 300px*/
   
     .nav-list {
@@ -36,15 +77,6 @@
           transform: scale(1.1);
       }
     }
-    
-    
-    /*catalogo inicio*/
-    
-    
-  
-  
-  
-  
   
     /*Pagina remeras*/
     .catalogo_remeras{
@@ -64,7 +96,7 @@
       .catalogo_remeras .good-vibes,
       .catalogo_remeras .thug,
       .catalogo_remeras .panther{
-        background-color: #f2f2f2;
+        background-color: $bgCatalogos;
         border-radius: 10px;
         padding: 10px;
         margin: 5px;
@@ -91,7 +123,7 @@
     .catalogo_buzos .green,
   .catalogo_buzos .dreamers{
   
-    background-color: #f2f2f2;
+    background-color: $bgCatalogos;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -110,7 +142,7 @@
   .catalogo_pantalones .capacious,
   .catalogo_pantalones .open,
   .catalogo_pantalones .airy{
-    background-color: #f2f2f2;
+    background-color: $bgCatalogos;
     border-radius: 10px;
     padding: 30px;
     margin: 1px;
@@ -118,46 +150,7 @@
   }
   
   }
-  @media(max-width:471px){
-    .carrousel_inicio{
-      display: none;
-    }
-    .destacados_title{
-      display: none;
-    }
-    .container_destacados{
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      left: 35px;
-    }
-    .catalogo_buzos{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      right: 30px;
-    }
-    .catalogo_pantalones{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      right: 30px;
-    }
-    .catalogo_remeras{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      right: 30px;
-    }
-  }
+  
   @media(max-width: 992px) {
     .container_destacados img{
       width: 80%;
