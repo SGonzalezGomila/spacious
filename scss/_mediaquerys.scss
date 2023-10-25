@@ -43,8 +43,10 @@
     
     .envios {
       .lugar_de_envio {
-          display: grid;
-          grid-template-columns: 1fr;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
             button{
               margin-bottom: 10px;
             }
@@ -53,7 +55,7 @@
 
   }
   @media(max-width: 767px){
-    /*Ajustes a la navbar para pantallas hasta 300px*/
+   
   
     .nav-list {
       list-style: none;
@@ -158,14 +160,12 @@
     padding: 30px;
     margin: 1px;
     margin-left: 18px;
-    //Envios
-    /*Envios*/
-    
-
 
   }
   
-  }
+
+
+}
   
   @media(max-width: 992px) {
     .container_destacados img{
@@ -176,6 +176,18 @@
     .container_destacados img:active{
       transform: scale(1.1);
     }
+    .envios {
+      .lugar_de_envio {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+            button{
+              margin-bottom: 10px;
+            }
+      }
+
+  }
   }
   
   @media(max-width: 1199px){
@@ -188,4 +200,3 @@
       transform: scale(1.1);
     }
   }
-  
