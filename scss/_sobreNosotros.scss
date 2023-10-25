@@ -1,0 +1,28 @@
+
+.cuadro {
+        
+        padding: 5%; /* Ajusta estos valores para hacerlo más cuadrado */
+        border: 1px solid $bgCatalogos;
+        border-radius: 5px;
+        margin: 20px;
+        color: #fff;
+    .info{
+        .nuestra_marca{
+            border: 1px solid black;
+        }
+        .sobre_nosotros{
+            border: 1px solid black;
+        }
+        .nuestra_vision{
+            border: 1px solid black;
+        }
+        .nuestro_compromiso{
+            border: 1px solid black;
+        }
+    }
+
+    p {
+        color: black;
+        margin-top: 10px;
+    }
+}

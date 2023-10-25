@@ -1,0 +1,69 @@
+//Pantalones
+/*Pantalones*/
+.catalogo_pantalones .space,
+.catalogo_pantalones .airy,
+.catalogo_pantalones .ample,
+.catalogo_pantalones .open,
+.catalogo_pantalones .expansive,
+.catalogo_pantalones .capacious{
+    @include catalogo-styles;
+        h2{
+            color: white;
+        }
+            img{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+        }
+}
+
+.catalogo_pantalones button{
+    @include boton-catalogo;
+}
+
+//Buzos
+/*Buzos*/
+.catalogo_buzos .peace,
+.catalogo_buzos .fear,
+.catalogo_buzos .knok,
+.catalogo_buzos .orange,
+.catalogo_buzos .green,
+.catalogo_buzos .dreamers{
+    @include catalogo-styles;
+        h2{
+            color: white;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+}
+.catalogo_buzos button{
+    h2{
+        color: white
+    }
+    @include boton-catalogo
+}
+//Remeras
+/*Remeras*/
+
+.catalogo_remeras .mushroom,
+.catalogo_remeras .courage,
+.catalogo_remeras .nasa,
+.catalogo_remeras .good-vibes,
+.catalogo_remeras .thug,
+.catalogo_remeras .panther {
+    @include catalogo-styles;
+        img{
+            height: 200px;
+            width: 200px;
+            border-radius: 10px;
+        }
+       
+}
+
+.catalogo_remeras button{
+    @include boton-catalogo;
+}

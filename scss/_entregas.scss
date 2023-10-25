@@ -1,0 +1,49 @@
+p {
+    text-align: center;
+}
+
+.envios {
+    .lugar_de_envio {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /* Espacio entre columnas */
+
+    .envio {
+        width: 100%;
+        text-align: center;
+        background: linear-gradient(to right, #000, #333);
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+        h3 {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 200px;
+            height: 200px;
+            border: 0;
+            margin: 0 auto;
+            /* Centrar horizontalmente el mapa */
+            margin-bottom: 45px
+        }
+
+        button {
+            @include boton-catalogo;
+        }
+    }
+
+}

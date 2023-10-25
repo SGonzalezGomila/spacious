@@ -40,6 +40,17 @@
       position: relative;
       right: 30px;
     }
+    
+    .envios {
+      .lugar_de_envio {
+          display: grid;
+          grid-template-columns: 1fr;
+            button{
+              margin-bottom: 10px;
+            }
+      }
+    }
+
   }
   @media(max-width: 767px){
     /*Ajustes a la navbar para pantallas hasta 300px*/
@@ -147,6 +158,11 @@
     padding: 30px;
     margin: 1px;
     margin-left: 18px;
+    //Envios
+    /*Envios*/
+    
+
+
   }
   
   }

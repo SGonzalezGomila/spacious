@@ -16,17 +16,20 @@ body {
 /*h1 general*/
 h1 {
   text-align: center;
-  background-color: #f2f2f2;
+  color: black;
 }
 
 h2 {
   text-align: center;
-  background-color: #f2f2f2;
+  color: black;
 }
 
 h5 {
-  background-color: grey;
-  color: #f2f2f2;
+  color: #333;
+}
+
+span {
+  color: white;
 }
 
 /* Header */
@@ -42,6 +45,7 @@ header {
 .nav-bar .navbar-nav .nav-item .nav-link {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 .nav-bar .navbar-nav .nav-item .nav-link:hover {
   color: rgb(247, 255, 136);
@@ -49,8 +53,8 @@ header {
 
 .logo_navbar {
   max-width: 50px;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -115,18 +119,125 @@ h2 {
   transform: scale(1.1);
 }
 
-/*Map para catalogo de remeras*/
+/*Pantalones*/
+.catalogo_pantalones .space,
+.catalogo_pantalones .airy,
+.catalogo_pantalones .ample,
+.catalogo_pantalones .open,
+.catalogo_pantalones .expansive,
+.catalogo_pantalones .capacious {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.catalogo_pantalones .space h2,
+.catalogo_pantalones .airy h2,
+.catalogo_pantalones .ample h2,
+.catalogo_pantalones .open h2,
+.catalogo_pantalones .expansive h2,
+.catalogo_pantalones .capacious h2 {
+  color: white;
+}
+.catalogo_pantalones .space img,
+.catalogo_pantalones .airy img,
+.catalogo_pantalones .ample img,
+.catalogo_pantalones .open img,
+.catalogo_pantalones .expansive img,
+.catalogo_pantalones .capacious img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.catalogo_pantalones button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.catalogo_pantalones button:hover {
+  background-color: rgb(247, 255, 136);
+}
+
+/*Buzos*/
+.catalogo_buzos .peace,
+.catalogo_buzos .fear,
+.catalogo_buzos .knok,
+.catalogo_buzos .orange,
+.catalogo_buzos .green,
+.catalogo_buzos .dreamers {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.catalogo_buzos .peace h2,
+.catalogo_buzos .fear h2,
+.catalogo_buzos .knok h2,
+.catalogo_buzos .orange h2,
+.catalogo_buzos .green h2,
+.catalogo_buzos .dreamers h2 {
+  color: white;
+}
+.catalogo_buzos .peace img,
+.catalogo_buzos .fear img,
+.catalogo_buzos .knok img,
+.catalogo_buzos .orange img,
+.catalogo_buzos .green img,
+.catalogo_buzos .dreamers img {
+  height: 200px;
+  width: 200px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+.catalogo_buzos button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.catalogo_buzos button h2 {
+  color: white;
+}
+.catalogo_buzos button:hover {
+  background-color: rgb(247, 255, 136);
+}
+
+/*Remeras*/
 .catalogo_remeras .mushroom,
 .catalogo_remeras .courage,
 .catalogo_remeras .nasa,
 .catalogo_remeras .good-vibes,
 .catalogo_remeras .thug,
 .catalogo_remeras .panther {
-  background-color: #f2f2f2;
+  background-color: #333;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  margin-left: 110px;
   width: 300px;
   height: 330px;
   display: flex;
@@ -146,8 +257,8 @@ h2 {
 }
 
 .catalogo_remeras button {
-  background-color: #000000;
-  color: #fff;
+  background-color: #fff;
+  color: black;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
@@ -157,96 +268,31 @@ h2 {
   transition: background-color 0.3s ease;
 }
 .catalogo_remeras button:hover {
-  background-color: #0056b3;
+  background-color: rgb(247, 255, 136);
 }
 
-.catalogo_pantalones .space,
-.catalogo_pantalones .airy,
-.catalogo_pantalones .ample,
-.catalogo_pantalones .open,
-.catalogo_pantalones .expansive,
-.catalogo_pantalones .capacious {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  margin-left: 110px;
-  width: 300px;
-  height: 330px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.catalogo_pantalones .space img,
-.catalogo_pantalones .airy img,
-.catalogo_pantalones .ample img,
-.catalogo_pantalones .open img,
-.catalogo_pantalones .expansive img,
-.catalogo_pantalones .capacious img {
-  height: 200px;
-  width: 200px;
-  border-radius: 10px;
-}
-
-.catalogo_pantalones button {
-  background-color: #000000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  font-size: 1rem;
-  cursor: pointer;
+.cuadro {
+  padding: 5%; /* Ajusta estos valores para hacerlo más cuadrado */
+  border: 1px solid #333;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-.catalogo_pantalones button:hover {
-  background-color: #0056b3;
-}
-
-.catalogo_buzos .peace,
-.catalogo_buzos .fear,
-.catalogo_buzos .knok,
-.catalogo_buzos .orange,
-.catalogo_buzos .green,
-.catalogo_buzos .dreamers {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
-  margin-left: 110px;
-  width: 300px;
-  height: 330px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.catalogo_buzos .peace img,
-.catalogo_buzos .fear img,
-.catalogo_buzos .knok img,
-.catalogo_buzos .orange img,
-.catalogo_buzos .green img,
-.catalogo_buzos .dreamers img {
-  height: 200px;
-  width: 200px;
-  margin-left: 5px;
-  border-radius: 10px;
-}
-
-.catalogo_buzos button {
-  background-color: #000000;
+  margin: 20px;
   color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  font-size: 1rem;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
 }
-.catalogo_buzos button:hover {
-  background-color: #0056b3;
+.cuadro .info .nuestra_marca {
+  border: 1px solid black;
+}
+.cuadro .info .sobre_nosotros {
+  border: 1px solid black;
+}
+.cuadro .info .nuestra_vision {
+  border: 1px solid black;
+}
+.cuadro .info .nuestro_compromiso {
+  border: 1px solid black;
+}
+.cuadro p {
+  color: black;
+  margin-top: 10px;
 }
 
 #contact-form {
@@ -293,7 +339,7 @@ textarea {
   cursor: pointer;
 }
 .contact_form button:hover {
-  background-color: #0056b3;
+  background-color: rgb(247, 255, 136);
 }
 
 /* Estilos de la información de contacto */
@@ -324,6 +370,60 @@ a {
 
 .informacion {
   text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.envios {
+  /* Espacio entre columnas */
+}
+.envios .lugar_de_envio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.envios .envio {
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(to right, #000, #333);
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.envios .envio h3 {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+.envios .envio p {
+  text-align: center;
+  color: white;
+}
+.envios .envio iframe {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  border: 0;
+  margin: 0 auto;
+  /* Centrar horizontalmente el mapa */
+  margin-bottom: 45px;
+}
+.envios .envio button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.envios .envio button:hover {
+  background-color: rgb(247, 255, 136);
 }
 
 /*Mediaquerys*/
@@ -365,6 +465,13 @@ a {
     justify-content: center;
     position: relative;
     right: 30px;
+  }
+  .envios .lugar_de_envio {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .envios .lugar_de_envio button {
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 767px) {
@@ -414,7 +521,7 @@ a {
   .catalogo_remeras .good-vibes,
   .catalogo_remeras .thug,
   .catalogo_remeras .panther {
-    background-color: #f2f2f2;
+    background-color: #333;
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
@@ -438,7 +545,7 @@ a {
   .catalogo_buzos .orange,
   .catalogo_buzos .green,
   .catalogo_buzos .dreamers {
-    background-color: #f2f2f2;
+    background-color: #333;
     border-radius: 10px;
     padding: 10px;
     margin: 10px;
@@ -456,11 +563,12 @@ a {
   .catalogo_pantalones .capacious,
   .catalogo_pantalones .open,
   .catalogo_pantalones .airy {
-    background-color: #f2f2f2;
+    background-color: #333;
     border-radius: 10px;
     padding: 30px;
     margin: 1px;
     margin-left: 18px;
+    /*Envios*/
   }
 }
 @media (max-width: 992px) {

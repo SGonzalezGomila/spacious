@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 //Variables
-$bgheader:black;
-$bgbody:#f2f2f2;
-$bgCatalogos:#f2f2f2;
-$colorHoverNav:rgb(247, 255, 136);
-$colorLi:white;
-$hoverBoton: #0056b3;
+$bgheader: black;
+$bgbody: white;
+$bgtitulos: #333;
+$fontcolor: black;
+$bgCatalogos: #333;
+$colorHoverNav: rgb(247, 255, 136);
+$colorLi: white;
+$hoverBoton: rgb(247, 255, 136);
 
 //Mixins
 @mixin catalogo-styles {
@@ -13,17 +15,19 @@ $hoverBoton: #0056b3;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  margin-left: 110px;
   width: 300px;
   height: 330px;
-  display: flex; 
-  flex-direction: column; 
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-};
-@mixin boton-catalogo{
-  background-color: #000000;
-  color: #fff;
+}
+
+;
+
+@mixin boton-catalogo {
+  background-color: #fff;
+  color: black;
   border: none;
   padding: 10px 20px;
   margin-top: 10px;
@@ -31,8 +35,9 @@ $hoverBoton: #0056b3;
   cursor: pointer;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  &:hover{
-      background-color: $hoverBoton;
+
+  &:hover {
+    background-color: $hoverBoton;
   }
 }
 
@@ -43,27 +48,33 @@ $hoverBoton: #0056b3;
   font-family: 'Bebas Neue', sans-serif;
   padding: 0;
   margin: 0;
-  
+
 }
 
 body {
   margin: 0;
   padding: 0;
-  
   background-color: $bgbody;
 }
+
 /*h1 general*/
-h1{
+h1 {
   text-align: center;
-  background-color: $bgbody;
+  color: $fontcolor;
 }
+
 h2{
   text-align: center;
-  background-color: $bgbody;
+  color: black;
 }
-h5{
-  background-color: grey;
-  color: #f2f2f2;
+
+h5 {
+
+  color: $bgCatalogos;
+}
+
+span {
+  color: white;
 }
 
 /* Header */
@@ -74,25 +85,29 @@ header {
 //Navbar
 /*navbar*/
 
-.nav-bar{
-  .navbar-nav{
-    .nav-item{
+.nav-bar {
+  .navbar-nav {
+    .nav-item {
       margin-left: 20px;
       margin-top: 10px;
-        .nav-link{
-          text-decoration: none;
-          color: white;
-            &:hover{
-              color: rgb(247, 255, 136);
-            }
+
+      .nav-link {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+
+        &:hover {
+          color: rgb(247, 255, 136);
         }
+      }
     }
   }
 }
+
 .logo_navbar {
   max-width: 50px;
-  height: 70px;
-  width: 70px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
 }
 
@@ -105,7 +120,7 @@ header {
 
 //footer
 /*footer*/
-footer{
+footer {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -113,6 +128,6 @@ footer{
   text-align: center;
   background-color: black;
   color: white;
-  
-  
+
+
 }
