@@ -11,6 +11,9 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /*h1 general*/
@@ -75,6 +78,7 @@ footer {
   text-align: center;
   background-color: black;
   color: white;
+  margin-top: auto;
 }
 
 h1 {
@@ -379,30 +383,19 @@ p {
   text-align: center;
 }
 
-.envios .lugar_de_envio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 300px;
-}
-.envios .lugar_de_envio button {
-  margin-bottom: 10px;
-}
-
 /* Espacio entre columnas */
 .envio {
-  width: 100%;
   text-align: center;
   background: linear-gradient(to right, #000, #333);
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  margin: 10px;
 }
 .envio h3 {
   background: #333;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   margin-top: 10px;
 }
 .envio p {
@@ -472,15 +465,6 @@ p {
     justify-content: center;
     position: relative;
     right: 30px;
-  }
-  .envios .lugar_de_envio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .envios .lugar_de_envio button {
-    margin-bottom: 10px;
   }
 }
 @media (max-width: 767px) {
@@ -585,15 +569,6 @@ p {
   }
   .container_destacados img:active {
     transform: scale(1.1);
-  }
-  .envios .lugar_de_envio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .envios .lugar_de_envio button {
-    margin-bottom: 10px;
   }
 }
 @media (max-width: 1199px) {

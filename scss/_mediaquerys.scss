@@ -41,17 +41,7 @@
       right: 30px;
     }
     
-    .envios {
-      .lugar_de_envio {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-            button{
-              margin-bottom: 10px;
-            }
-      }
-    }
+    
 
   }
   @media(max-width: 767px){
@@ -176,19 +166,10 @@
     .container_destacados img:active{
       transform: scale(1.1);
     }
-    .envios {
-      .lugar_de_envio {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-            button{
-              margin-bottom: 10px;
-            }
-      }
+    
 
   }
-  }
+  
   
   @media(max-width: 1199px){
     .container_destacados img{

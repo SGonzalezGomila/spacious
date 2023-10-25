@@ -2,35 +2,27 @@ p {
     text-align: center;
 }
 
-.envios {
-    .lugar_de_envio {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 300px;
 
-        button {
-            margin-bottom: 10px;
-        }
-    }
-
-}
 
 /* Espacio entre columnas */
 
 .envio {
-    width: 100%;
+    
     text-align: center;
     background: linear-gradient(to right, #000, #333);
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin: 10px;
+    
+    
+    
+    
 
     h3 {
         background: #333;
         color: #fff;
         text-align: center;
-        padding: 10px;
+        padding: 5px;
         margin-top: 10px;
     }
 
